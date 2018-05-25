@@ -29,8 +29,8 @@ var request = require('request');
 //     });
 // } else {
     // Create a new Express application
-    app.use('/static', express.static(__dirname + '/../client/release'));
-    app.use('/', express.static(__dirname + '/../client/release'));
+    app.use('/static', express.static(__dirname + '/release'));
+    app.use('/', express.static(__dirname + '/release'));
     
     var URL = "https://api.contentstack.io";
 
