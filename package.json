@@ -1,0 +1,24 @@
+{
+  "name": "evolent-anup",
+  "version": "1.0.0",
+  "description": "Interview assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anup Singh, Mumbai",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "*",
+    "request": "*"
+  },
+  "dependencies": {
+    "express-http-proxy": "^1.0.7"
+  },
+  "engines": {
+    "node": "6.9.4"
+  },
+  "scripts": { 
+    "start" : "node app.js" 
+  } 
+}
