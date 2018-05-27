@@ -117,6 +117,7 @@
 }
 .table .table-head .table-cell .search-textbox:focus {
   width: 120%;
+  outline: none;
 }
 .table .table-body {
   background-color: #fff;
